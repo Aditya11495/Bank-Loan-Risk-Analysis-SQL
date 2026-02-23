@@ -1,59 +1,19 @@
-**Project Overview**
+🏦 Bank Loan Risk Analysis using SQL
+📌 Project Overview
 
-This project simulates a real-world banking database to analyze loan risk, customer credit behavior, and approval trends using SQL.
+This project demonstrates a complete Bank Loan Risk Analysis System built using SQL.
+It includes database creation, bulk data insertion, and analytical queries to extract business insights from loan and customer data.
 
-The goal is to extract business insights such as:
+The project simulates a real-world banking environment with:
 
-Default Rate
+100+ Customers
 
-High-Risk Customers
+100 Credit History Records
 
-Credit Score Impact
+50+ Loan Records
 
-Loan Approval Trends
+Risk Segmentation Queries
 
-Income vs Risk Relationship
+Business KPI Calculations
 
-City-wise Loan Distribution
-
-Database Schema
-Tables Used:
-
-Customers
-
-Loans
-
-Credit_History
-
-🧱 Table Structure
-Customers
-
-customer_id (Primary Key)
-
-name
-
-age
-
-gender
-
-income
-
-employment_status
-
-city
-
-Loans
-
-loan_id (Primary Key)
-
-customer_id (Foreign Key)
-
-loan_amount
-
-loan_type
-
-interest_rate
-
-loan_term
-
-loan_status (Approved / Rejected / Closed / Defaulted)
+All SQL queries and outputs are documented in the attached PDF.
