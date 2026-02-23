@@ -1,5 +1,5 @@
-🏦 Bank Loan Risk Analysis using SQL
-📌 Project Overview
+ Bank Loan Risk Analysis using SQL
+ Project Overview
 
 This project demonstrates a complete Bank Loan Risk Analysis System built using SQL.
 It includes database creation, bulk data insertion, and analytical queries to extract business insights from loan and customer data.
