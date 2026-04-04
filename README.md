@@ -1,6 +1,6 @@
 # Bank Loan Risk Analysis using SQL
  
- * Project Overview 
+ # Project Overview 
  
 This project demonstrates a complete Bank Loan Risk Analysis System built using SQL.
 It includes database creation, bulk data insertion, and analytical queries to extract business insights from loan and customer data.
@@ -32,7 +32,7 @@ Business Insight:
 Measures the percentage of total loans that resulted in default.
 Helps assess overall credit risk exposure.
 
-2️⃣ Average Loan Amount by Loan Type
+# Average Loan Amount by Loan Type
 SELECT 
     loan_type,
     ROUND(AVG(loan_amount),2) AS avg_loan_amount
@@ -43,7 +43,7 @@ ORDER BY avg_loan_amount DESC;
 Business Insight:
 Identifies which loan category has the highest average disbursement.
 
-3️⃣ High-Risk Customers
+# High-Risk Customers
 SELECT 
     c.customer_id,
     c.name,
@@ -56,6 +56,6 @@ WHERE ch.credit_score < 600
    OR ch.past_defaults > 0
 ORDER BY ch.credit_score ASC;
 
-Business Insight:
+# Business Insight:
 Detects customers likely to default based on credit behavior.
 
