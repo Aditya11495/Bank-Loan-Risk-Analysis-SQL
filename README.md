@@ -1,4 +1,4 @@
- * Bank Loan Risk Analysis using SQL
+# Bank Loan Risk Analysis using SQL
  
  * Project Overview 
  
